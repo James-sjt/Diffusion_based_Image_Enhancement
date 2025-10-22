@@ -82,6 +82,10 @@ Finally, to evaluate the performance of the model in terms of image quality, you
 python evaluationDenoise.py
 ```
 This script will provide detailed performance metrics to assess the effectiveness of the enhanced images.
+```
+Mean metrics: {'PSNR': 32.379971051216124, 'SSIM': 0.9179629132151603, 'GMSD': 0.039456392801366744, 'LPIPS': 0.12955094361677766}
+Average inference time per image: 7.834824788570404
+```
 
 ### Model Parameters
 The model is designed to automatically load trained parameters if available. However, if you need to re-train any component, the following files will be generated:
