@@ -90,18 +90,28 @@ VAE Parameters: Stored as VAESSIM.pth after VAE training.
 
 Latent Diffusion Model Parameters: Saved during training at ./Diffusion_based_Image_Enhancement/ckpts_unet.
 
+### Sampled Images from the Model
+Here are some examples of the images processed by the Diffusion-Based Image Enhancement Model. These images show the before and after results, highlighting the improvement in image contrast.
+## Before Enhancement
+[img_0002.tif](https://github.com/user-attachments/files/23052528/img_0002.tif)
+[img_0007.tif](https://github.com/user-attachments/files/23052530/img_0007.tif)
+[img_0023.tif](https://github.com/user-attachments/files/23052534/img_0023.tif)
+[img_0053.tif](https://github.com/user-attachments/files/23052536/img_0053.tif)
+[img_0120.tif](https://github.com/user-attachments/files/23052539/img_0120.tif)
+
+## After Enhancement
+[enhanced_0002.tif](https://github.com/user-attachments/files/23052511/enhanced_0002.tif)
+[enhanced_0007.tif](https://github.com/user-attachments/files/23052515/enhanced_0007.tif)
+[enhanced_0023.tif](https://github.com/user-attachments/files/23052516/enhanced_0023.tif)
+[enhanced_0053.tif](https://github.com/user-attachments/files/23052520/enhanced_0053.tif)
+[enhanced_0120.tif](https://github.com/user-attachments/files/23052527/enhanced_0120.tif)
+
 ### Requirements
 
 Python 3.8+
 
 PyTorch 1.9+
 
-HuggingFace's transformers library (for model deployment, if needed)
+HuggingFace's transformers library
 
-Other dependencies are listed in requirements.txt
-
-Install required packages:
-```bash
-pip install -r requirements.txt
-```
 
